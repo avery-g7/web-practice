@@ -49,6 +49,7 @@ flex-direction: column;
     padding: 100px;
     flex-shrink: 1;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -100,4 +101,49 @@ button {
     font-weight: bolder;
     font-size: 30px;
     padding: 24px;
+}
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-end;
+}
+.stocktzu {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+    max-width: 600px;
+    margin: 70px 0 0 0;
+}
+#head {
+    margin-bottom: 70px;
+}
+.action {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.border {
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    width: 600px;
+    justify-content: center;
+    text-align: left;
+    padding: 8px 60px;
+    margin: 80px 120px;
+}
+.text {
+    margin: 0;
+    min-width: 50px;
+    max-width: 420px
+}
+
+#button {
+    border: 2px solid white;
 }
