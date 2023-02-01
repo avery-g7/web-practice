@@ -105,7 +105,6 @@ button {
 .quote {
     background-color: #E5E7EB;
     display: flex;
-    align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
@@ -124,7 +123,6 @@ button {
 .action {
     background-color: white;
     justify-content: center;
-    align-items: center;
     display: flex;
 }
 .border {
@@ -133,7 +131,6 @@ button {
     background-color: #3882F6;
     color: white;
     width: 600px;
-    justify-content: center;
     text-align: left;
     padding: 30px 70px;
     margin: 80px 120px;
@@ -152,10 +149,7 @@ button {
     align-self: flex-end;
 }
 .border-box {
-    display: flex;
-    flex-direction: column;
     max-width: 450px;
-    flex-wrap: wrap;
 }
 #stupid {
     display: flex;
@@ -165,8 +159,6 @@ button {
     align-content: center;
 }
 footer {
-    display: flex;
-    justify-content: center;
     padding: 16px 0;
     color: white;
     font-size: 12px;
